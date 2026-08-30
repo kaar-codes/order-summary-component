@@ -1,0 +1,47 @@
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+/* red-hat-display-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/red-hat-display-v21-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* red-hat-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/red-hat-display-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* red-hat-display-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/red-hat-display-v21-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+:root {
+  --blue100: hsl(225, 100%, 94%);
+  --blue700: hsl(245, 75%, 52%);
+  --blue50: hsl(225, 100%, 98%);
+  --gray600: hsl(224, 23%, 55%);
+  --blue950: hsl(223, 47%, 23%);
+}
+
+body {
+  background: var(--blue50);
+}
