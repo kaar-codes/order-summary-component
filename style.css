@@ -1,7 +1,10 @@
+@import "./container.css";
+@import "./mobile.css";
+
 * {
   margin: unset;
   padding: unset;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 /* red-hat-display-500 - latin */
@@ -30,7 +33,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -40,8 +43,35 @@ html {
   --blue50: hsl(225, 100%, 98%);
   --gray600: hsl(224, 23%, 55%);
   --blue950: hsl(223, 47%, 23%);
+  --white: hsl(0, 0%, 100%);
+
+  --b-radius: 16px;
 }
 
 body {
-  background: var(--blue50);
+  background: var(--blue100);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  color: var(--blue950);
+}
+
+p {
+  color: var(--gray600);
 }

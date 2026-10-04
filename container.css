@@ -1,0 +1,71 @@
+/* Main Container */
+.card-container {
+  background-color: var(--white);
+  width: 360px;
+  border-radius: var(--b-radius);
+  overflow: hidden;
+}
+
+.plan {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: inherit;
+}
+
+.plan-details {
+  background-color: var(--blue50);
+  display: flex;
+  border-radius: inherit;
+  gap: 16px;
+  padding: 16px;
+}
+
+.plan-summary {
+  text-align: center;
+}
+
+.plan-summary h1 {
+  margin: 12px;
+}
+
+.plan-summary p {
+  line-height: 21px;
+}
+
+.illustration img {
+  width: 100%;
+  display: block;
+}
+
+.plan-details-amt {
+  flex-grow: 1;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* CTA - Call to Actions */
+.plan-cta {
+  border-radius: inherit;
+}
+
+.cta {
+  all: unset;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--gray600);
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.btn-pay {
+  color: var(--white);
+  background-color: var(--blue700);
+  padding: 8px;
+  margin-block-end: 24px;
+  border-radius: calc(var(--b-radius) / 2);
+}
