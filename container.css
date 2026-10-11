@@ -4,6 +4,9 @@
   width: 360px;
   border-radius: var(--b-radius);
   overflow: hidden;
+
+  /* Box Shadow */
+  box-shadow: var(--gray600) 0 4px 64px;
 }
 
 .plan {
@@ -65,7 +68,9 @@
 .btn-pay {
   color: var(--white);
   background-color: var(--blue700);
-  padding: 8px;
+  padding-block: 16px;
   margin-block-end: 24px;
+  /* Box Shadow */
+  box-shadow: var(--gray600) 0 6px 24px;
   border-radius: calc(var(--b-radius) / 2);
 }

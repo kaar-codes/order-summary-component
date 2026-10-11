@@ -1,5 +1,4 @@
 @import "./container.css";
-@import "./mobile.css";
 
 * {
   margin: unset;
@@ -74,4 +73,23 @@ h6 {
 
 p {
   color: var(--gray600);
+}
+
+/* LVHA - Link Visited Hover Active */
+a:hover,
+a:active {
+  text-decoration: none;
+  opacity: 0.66;
+}
+
+.btn-pay:hover,
+.btn-pay:active {
+  cursor: pointer;
+  opacity: 0.66;
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+  color: var(--blue950);
+  cursor: pointer;
 }
